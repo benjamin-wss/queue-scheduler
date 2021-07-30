@@ -1,0 +1,17 @@
+# module foler
+node_modules
+
+# yarn non zero-install ignores
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# log files
+npm-debug.log
+
+# env config
+.env-cmdrc

@@ -1,0 +1,25 @@
+{
+  "name": "queue-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "~2.8.5",
+    "express": "~4.17.1",
+    "express-pino-logger": "~6.0.0",
+    "foo-foo-mq": "~7.0.0",
+    "glob": "~7.1.7",
+    "helmet": "~4.6.0",
+    "pg": "~8.7.1",
+    "pg-hstore": "~2.3.4",
+    "pino": "~6.13.0",
+    "pino-pretty": "~5.1.2",
+    "sequelize": "~6.6.5",
+    "swagger-autogen": "~2.11.1",
+    "swagger-ui-express": "~4.1.6",
+    "yup": "~0.32.9"
+  },
+  "devDependencies": {
+    "env-cmd": "~10.1.0"
+  }
+}
