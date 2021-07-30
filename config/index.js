@@ -9,6 +9,7 @@ const config = {
     environment,
   },
   httpServerSetup: require("./http"),
+  logging: require("./logging"),
 };
 
 Object.freeze(config);
